@@ -1,0 +1,33 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body{
+   background-color: darkcyan ;
+}
+h1{
+   text-align: center ;
+   color:white;
+}
+.loan_cal{
+   background-color:black;
+   color:white;
+   width:500px;
+   gap:10px;
+   display:flex;
+   flex-direction:column;
+   padding: 20px;
+    margin: auto;
+}
+input[type="number"] {
+    width: 50%;
+    margin: 10px 0;
+}
+button{
+   background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
